@@ -1,12 +1,13 @@
 import React from 'react';
+import logo from '../assets/img/kremlin_logo_light.png';
 
 const Footer = () => (
 	<footer class='footer-bg py-5'>
 		<div class='container'>
 			<div class='row'>
 				<div class='col-md-6'>
-					<a class='footer-logo' href='index.html'>
-						<img src='img/kremlin_logo_light.png' alt='kremlin_logo' />
+					<a class='footer-logo' href='/'>
+						<img src={logo} alt='kremlin_logo' />
 					</a>
 					<p class='footer-info'>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -80,7 +81,16 @@ const Footer = () => (
 				</form>
 			</div>
 			<div class='attribution text-center p-3'>
-				<p>Powered by Kryptonite CREATIVES @2020. All Rights Reserved.</p>
+				<p>
+					Powered by{' '}
+					<a
+						href='https://www.facebook.com/kryptonitecreatives'
+						target='_blank'
+					>
+						Kryptonite CREATIVES
+					</a>{' '}
+					&copy;2020. All Rights Reserved.
+				</p>
 			</div>
 		</div>
 	</footer>
