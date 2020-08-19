@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/img/kremlin_logo_light.png';
 
 const Footer = () => (
@@ -28,19 +29,19 @@ const Footer = () => (
 					</p>
 					<div class='footer-social-links p-2'>
 						<a href='#'>
-							<i class='fa fa-facebook px-2'></i>
+							<FontAwesomeIcon icon={['fab', 'facebook']} />
 						</a>
 						<a href='#'>
-							<i class='fa fa-instagram px-2'></i>
+							<FontAwesomeIcon icon={['fab', 'instagram']} />
 						</a>
 						<a href='#'>
-							<i class='fa fa-twitter px-2'></i>
+							<FontAwesomeIcon icon={['fab', 'twitter']} />
 						</a>
 						<a href='#'>
-							<i class='fa fa-youtube px-2'></i>
+							<FontAwesomeIcon icon={['fab', 'youtube']} />
 						</a>
 						<a href='#'>
-							<i class='fa fa-linkedin px-2'></i>
+							<FontAwesomeIcon icon={['fab', 'linkedin']} />
 						</a>
 					</div>
 				</div>

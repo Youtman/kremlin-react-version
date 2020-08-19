@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Services = () => {
 	return (
@@ -14,7 +15,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>
@@ -37,7 +38,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>
@@ -60,7 +61,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>
@@ -83,7 +84,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>
@@ -106,7 +107,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>
@@ -129,7 +130,7 @@ const Services = () => {
 								<div class='col-sm-4 serv-icon'>
 									<div class='d-flex h-100'>
 										<div class='mx-auto align-self-center'>
-											<i class='fa fa-fire'></i>
+											<FontAwesomeIcon icon='fire' />
 										</div>
 									</div>
 								</div>

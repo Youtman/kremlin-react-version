@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CallToAction = () => {
 	return (
@@ -18,7 +19,7 @@ const CallToAction = () => {
 					</div>
 					<div class='col-md-4'>
 						<a class='btn btn-cta mt-5' href=''>
-							<i class='fa fa-bullhorn mr-2' aria-hidden='true'></i>
+							<FontAwesomeIcon icon='bullhorn' />
 							Get Started
 						</a>
 					</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Rebekah from '../assets/img/team1.png';
 import Lincoln from '../assets/img/team2.png';
 import Mary from '../assets/img/team3.png';
@@ -27,13 +28,13 @@ const Team = () => {
 							</div>
 							<div class='team-social-links p-2'>
 								<a href='#'>
-									<i class='fa fa-facebook px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'facebook']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-instagram px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'instagram']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-twitter px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'twitter']} />
 								</a>
 							</div>
 						</article>
@@ -54,13 +55,13 @@ const Team = () => {
 							</div>
 							<div class='team-social-links p-2'>
 								<a href='#'>
-									<i class='fa fa-facebook px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'facebook']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-instagram px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'instagram']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-twitter px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'twitter']} />
 								</a>
 							</div>
 						</article>
@@ -81,13 +82,13 @@ const Team = () => {
 							</div>
 							<div class='team-social-links p-2'>
 								<a href='#'>
-									<i class='fa fa-facebook px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'facebook']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-instagram px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'instagram']} />
 								</a>
 								<a href='#'>
-									<i class='fa fa-twitter px-2'></i>
+									<FontAwesomeIcon icon={['fab', 'twitter']} />
 								</a>
 							</div>
 						</article>
