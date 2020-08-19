@@ -1,4 +1,7 @@
 import React from 'react';
+import Rebekah from '../assets/img/team1.png';
+import Lincoln from '../assets/img/team2.png';
+import Mary from '../assets/img/team3.png';
 
 const Team = () => {
 	return (
@@ -10,7 +13,7 @@ const Team = () => {
 				<div class='row my-3'>
 					<div class='col-md-4'>
 						<article class='shadow p-0'>
-							<img src='img/team1.png' class='img-fluid' alt='' />
+							<img src={Rebekah} class='img-fluid' alt='' />
 							<div class='team-content p-3'>
 								<h3>Rebekah Krem</h3>
 								<p>
@@ -37,7 +40,7 @@ const Team = () => {
 					</div>
 					<div class='col-md-4'>
 						<article class='shadow p-0'>
-							<img src='img/team2.png' class='img-fluid' alt='' />
+							<img src={Lincoln} class='img-fluid' alt='' />
 							<div class='team-content p-3'>
 								<h3>Lincoln Obach</h3>
 								<p>
@@ -64,7 +67,7 @@ const Team = () => {
 					</div>
 					<div class='col-md-4'>
 						<article class='shadow p-0'>
-							<img src='img/team3.png' class='img-fluid' alt='' />
+							<img src={Mary} class='img-fluid' alt='' />
 							<div class='team-content p-3'>
 								<h3>Mary Waceke</h3>
 								<p>

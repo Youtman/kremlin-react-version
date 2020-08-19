@@ -1,4 +1,7 @@
 import React from 'react';
+import Stacy from '../assets/img/person1.jpg';
+import Alicia from '../assets/img/person2.jpg';
+import Kimberly from '../assets/img/person3.jpg';
 
 const Testimonials = () => {
 	return (
@@ -24,11 +27,7 @@ const Testimonials = () => {
 							</p>
 						</div>
 						<div class='col-md-4'>
-							<img
-								src='img/person1.jpg'
-								class='img-fluid rounded-circle'
-								alt=''
-							/>
+							<img src={Stacy} class='img-fluid rounded-circle' alt='' />
 						</div>
 					</div>
 				</div>
@@ -53,7 +52,7 @@ const Testimonials = () => {
 						</div>
 						<div class='col-md-4'>
 							<img
-								src='img/person2.jpg'
+								src={Alicia}
 								class='img-fluid rounded-circle'
 								alt=''
 							/>
@@ -81,7 +80,7 @@ const Testimonials = () => {
 						</div>
 						<div class='col-md-4'>
 							<img
-								src='img/person3.jpg'
+								src={Kimberly}
 								class='img-fluid rounded-circle'
 								alt=''
 							/>
