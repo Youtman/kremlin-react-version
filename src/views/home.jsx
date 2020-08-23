@@ -1,9 +1,9 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import CallToAction from '../components/CallToAction';
-import Services from '../components/Services';
-import Testimonials from '../components/Testimonials';
-import Team from '../components/Team';
+import Hero from '../components/Home/Hero';
+import CallToAction from '../components/Home/CallToAction';
+import Services from '../components/Home/Services';
+import Testimonials from '../components/Home/Testimonials';
+import Team from '../components/Home/Team';
 
 const Home = () => {
 	return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Stacy from '../assets/img/person1.jpg';
-import Alicia from '../assets/img/person2.jpg';
-import Kimberly from '../assets/img/person3.jpg';
+import Stacy from '../../assets/img/person1.jpg';
+import Alicia from '../../assets/img/person2.jpg';
+import Kimberly from '../../assets/img/person3.jpg';
 
 const Testimonials = () => {
 	return (

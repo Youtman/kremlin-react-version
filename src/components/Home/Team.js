@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Rebekah from '../assets/img/team1.png';
-import Lincoln from '../assets/img/team2.png';
-import Mary from '../assets/img/team3.png';
+import Rebekah from '../../assets/img/team1.png';
+import Lincoln from '../../assets/img/team2.png';
+import Mary from '../../assets/img/team3.png';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
