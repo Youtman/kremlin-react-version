@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const CallToAction = () => {
@@ -18,10 +19,10 @@ const CallToAction = () => {
 						</p>
 					</div>
 					<div class='col-md-4'>
-						<a class='btn btn-cta mt-5' href=''>
+						<Link class='btn btn-cta mt-5' to=''>
 							<FontAwesomeIcon icon='bullhorn' />
 							Get Started
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from '../assets/img/kremlin_logo_light.png';
 
@@ -28,19 +29,19 @@ const Footer = () => (
 						Phone Number: <span>(+3) 084 800 490</span>
 					</p>
 					<div class='footer-social-links p-2'>
-						<a href='#'>
+						<a href=''>
 							<FontAwesomeIcon icon={['fab', 'facebook']} />
 						</a>
-						<a href='#'>
+						<a href=''>
 							<FontAwesomeIcon icon={['fab', 'instagram']} />
 						</a>
-						<a href='#'>
+						<a href=''>
 							<FontAwesomeIcon icon={['fab', 'twitter']} />
 						</a>
-						<a href='#'>
+						<a href=''>
 							<FontAwesomeIcon icon={['fab', 'youtube']} />
 						</a>
-						<a href='#'>
+						<a href=''>
 							<FontAwesomeIcon icon={['fab', 'linkedin']} />
 						</a>
 					</div>

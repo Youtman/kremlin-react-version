@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Rebekah from '../assets/img/team1.png';
 import Lincoln from '../assets/img/team2.png';
 import Mary from '../assets/img/team3.png';
+import { Link } from 'react-router-dom';
 
 const Team = () => {
 	return (
@@ -22,20 +23,20 @@ const Team = () => {
 									ipsum praesentium fugit ea nesciunt quasi nihil
 									magnam impedit labore.
 								</p>
-								<a class='btn btn-team' href=''>
+								<Link class='btn btn-team' to=''>
 									Read more
-								</a>
+								</Link>
 							</div>
 							<div class='team-social-links p-2'>
-								<a href='#'>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</a>
+								</Link>
 							</div>
 						</article>
 					</div>
@@ -49,20 +50,20 @@ const Team = () => {
 									ipsum praesentium fugit ea nesciunt quasi nihil
 									magnam impedit labore.
 								</p>
-								<a class='btn btn-team' href=''>
+								<Link class='btn btn-team' to=''>
 									Read more
-								</a>
+								</Link>
 							</div>
 							<div class='team-social-links p-2'>
-								<a href='#'>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</a>
+								</Link>
 							</div>
 						</article>
 					</div>
@@ -76,20 +77,20 @@ const Team = () => {
 									ipsum praesentium fugit ea nesciunt quasi nihil
 									magnam impedit labore.
 								</p>
-								<a class='btn btn-team' href=''>
+								<Link class='btn btn-team' to=''>
 									Read more
-								</a>
+								</Link>
 							</div>
 							<div class='team-social-links p-2'>
-								<a href='#'>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</a>
-								<a href='#'>
+								</Link>
+								<Link to=''>
 									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</a>
+								</Link>
 							</div>
 						</article>
 					</div>

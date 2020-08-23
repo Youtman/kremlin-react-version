@@ -7,13 +7,18 @@ import './assets/css/style.css';
 import Nav from './components/Nav.js';
 import Home from './views/home';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 library.add(fab, faBullhorn, faFire);
 
 const App = () => (
 	<div>
 		<Nav />
-		<Home />
+		<Router>
+			<Route exact path='/' component={Home} />
+
+			{/* <Home /> */}
+		</Router>
 		<Footer />
 	</div>
 );

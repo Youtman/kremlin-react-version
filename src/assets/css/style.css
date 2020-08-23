@@ -104,7 +104,7 @@ img.rounded-circle {
 	background-color: #271f2e;
 }
 
-.serv-icon i {
+.serv-icon FontAwesomeIcon {
 	font-size: 3rem;
 	color: #e2cb57;
 }
