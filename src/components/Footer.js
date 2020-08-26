@@ -46,7 +46,7 @@ const Footer = () => (
 						</a>
 					</div>
 				</div>
-				<form class='col-md-6' action=''>
+				<form class='col-md-6' action='' netlify>
 					<h2 class='text-center'>
 						Get <span>In touch</span>
 					</h2>
