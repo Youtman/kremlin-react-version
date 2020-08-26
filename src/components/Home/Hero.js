@@ -1,10 +1,13 @@
 import React from 'react';
-import Heroimg from '../../assets/img/krem_hero-dark.png';
 
 const Hero = () => {
 	return (
 		<section class='hero'>
-			<img src={Heroimg} class='img-fluid' alt='hero' />
+			<img
+				src={require('../../assets/img/krem_hero-dark.png')}
+				class='img-fluid'
+				alt='hero'
+			/>
 			<div class='hero-text p-5'>
 				<h1>
 					Krem De
