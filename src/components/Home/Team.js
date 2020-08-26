@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import members from '../../data/team.json';
 
 const Team = () => {
 	return (
@@ -10,99 +11,33 @@ const Team = () => {
 					Check out our <span>team</span>
 				</h2>
 				<div class='row my-3'>
-					<div class='col-md-4'>
-						<article class='shadow p-0'>
-							<img
-								src={require('../../assets/img/team1.png')}
-								class='img-fluid'
-								alt=''
-							/>
-							<div class='team-content p-3'>
-								<h3>Rebekah Krem</h3>
-								<p>
-									Laboriosam deleniti nulla illum ex, ratione repellat
-									ipsum praesentium fugit ea nesciunt quasi nihil
-									magnam impedit labore.
-								</p>
-								<Link class='btn btn-team' to=''>
-									Read more
-								</Link>
+					{members.map((member, i) => {
+						return (
+							<div class='col-md-4' key={member.id}>
+								<article class='shadow p-0'>
+									<img src={member.image} class='img-fluid' alt='' />
+									<div class='team-content p-3'>
+										<h3>{member.name}</h3>
+										<p>{member.description}</p>
+										<Link class='btn btn-team' to=''>
+											Read more
+										</Link>
+									</div>
+									<div class='team-social-links p-2'>
+										<Link to=''>
+											<FontAwesomeIcon icon={['fab', 'facebook']} />
+										</Link>
+										<Link to=''>
+											<FontAwesomeIcon icon={['fab', 'instagram']} />
+										</Link>
+										<Link to=''>
+											<FontAwesomeIcon icon={['fab', 'twitter']} />
+										</Link>
+									</div>
+								</article>
 							</div>
-							<div class='team-social-links p-2'>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</Link>
-							</div>
-						</article>
-					</div>
-					<div class='col-md-4'>
-						<article class='shadow p-0'>
-							<img
-								src={require('../../assets/img/team2.png')}
-								class='img-fluid'
-								alt=''
-							/>
-							<div class='team-content p-3'>
-								<h3>Lincoln Obach</h3>
-								<p>
-									Laboriosam deleniti nulla illum ex, ratione repellat
-									ipsum praesentium fugit ea nesciunt quasi nihil
-									magnam impedit labore.
-								</p>
-								<Link class='btn btn-team' to=''>
-									Read more
-								</Link>
-							</div>
-							<div class='team-social-links p-2'>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</Link>
-							</div>
-						</article>
-					</div>
-					<div class='col-md-4'>
-						<article class='shadow p-0'>
-							<img
-								src={require('../../assets/img/team3.png')}
-								class='img-fluid'
-								alt=''
-							/>
-							<div class='team-content p-3'>
-								<h3>Mary Waceke</h3>
-								<p>
-									Laboriosam deleniti nulla illum ex, ratione repellat
-									ipsum praesentium fugit ea nesciunt quasi nihil
-									magnam impedit labore.
-								</p>
-								<Link class='btn btn-team' to=''>
-									Read more
-								</Link>
-							</div>
-							<div class='team-social-links p-2'>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'facebook']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'instagram']} />
-								</Link>
-								<Link to=''>
-									<FontAwesomeIcon icon={['fab', 'twitter']} />
-								</Link>
-							</div>
-						</article>
-					</div>
+						);
+					})}
 				</div>
 			</div>
 		</section>
