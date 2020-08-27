@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	},
+	{
+		"id": 2,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	},
+	{
+		"id": 3,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	},
+	{
+		"id": 4,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	},
+	{
+		"id": 5,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	},
+	{
+		"id": 6,
+		"icon": "",
+		"title": "Service",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit cumque id eligendi, enim dolorem."
+	}
+]

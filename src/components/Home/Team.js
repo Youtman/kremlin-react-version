@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import members from '../../data/team.json';
+import members from '../../data/team.js';
 
 const Team = () => {
 	return (
@@ -11,11 +11,15 @@ const Team = () => {
 					Check out our <span>team</span>
 				</h2>
 				<div class='row my-3'>
-					{members.map((member, i) => {
+					{members.map((member) => {
 						return (
 							<div class='col-md-4' key={member.id}>
 								<article class='shadow p-0'>
-									<img src={member.image} class='img-fluid' alt='' />
+									<img
+										src={member.image}
+										class='img-fluid'
+										alt={member.name}
+									/>
 									<div class='team-content p-3'>
 										<h3>{member.name}</h3>
 										<p>{member.description}</p>
